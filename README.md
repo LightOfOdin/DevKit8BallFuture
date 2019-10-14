@@ -5,7 +5,7 @@ In this tutorial, you will turn your MXChip into a clairevoyant magical 8Ball. T
 * Understanding the relationship of the Arduino IDE and MX DevKit
 * Learn about the varying sensors onboard; using these sensors to solve problems.
 
-![8Ball Idle Screen](http://bit.ly/2IOKlkn)
+![8Ball Idle Screen](https://lh3.googleusercontent.com/t8KrrHJ21wIo50fv-l-tQbVExPu6gT0A7lwzQ1EUCETs2sPqL6GwJLKZMRINYKkpxZ2U-I1Egd0msE6pylU7Vqv9QJpg0rtcyiYkO-wg6AoiEDjlOSjNrgRYgKdtE1OVMeBzSgBwv_WeCcqw4VxpNA1oOS1IyLZXSOl6Ef3PiKqBJXWKveIdz-_YRTVniCLYsmQ158DLK7JMN0zjSZJ66uCS5mdAL-OYp_S1mDgbWtjvtvqqt3U_-3IKZmucfKqS0-2Hr5DGSz6-rbLLSY1utBlIifryHqQbtrSyltRcvK9ikQUJ71MNbY_XHSSvsrKdUYckZjrA9UN44lEe0lNt0iAZ6_a3UrsNkXhsZWRuci8VTOEU_i_cza3c0TDsSBhabeYsre_BUp7wQriHwsniUQ9K-FqsiKHfIAZVqmPQtSTnLKmBhhgvD0_OM0woWeEfe4accPRJMDbcA9mqNw0ZLEl83HMIy4jGfCZ6g783qAh8UoaNnSDK8rjaykh8ilzhXtvbF2iQe5_SWLrmyJCrJs6DJtzWzSRh5xwIuiMgEdITudhwT6fyztec5cANRECDM9kX7Wwjk8S2TUNxOEGwBsDZcDDOd4hYj_gWgGjXkV0OERct1BujY5PAUmdFjlm8Ed3e63tr5reWB-2U0LIvi-DhiZL-2ctWPpEVxG2JKIpTWtxsHAKDhUI=w746-h1532-no)
 
 > **Notice:** This project is used for Microsoft Codess 2019 Event in Sydney.
     
