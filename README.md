@@ -5,8 +5,6 @@ In this tutorial, you will turn your MXChip into a clairevoyant magical 8Ball. T
 * Understanding the relationship of the Arduino IDE and MX DevKit
 * Learn about the varying sensors onboard; using these sensors to solve problems.
 
-![8Ball Idle Screen](https://lh3.googleusercontent.com/t8KrrHJ21wIo50fv-l-tQbVExPu6gT0A7lwzQ1EUCETs2sPqL6GwJLKZMRINYKkpxZ2U-I1Egd0msE6pylU7Vqv9QJpg0rtcyiYkO-wg6AoiEDjlOSjNrgRYgKdtE1OVMeBzSgBwv_WeCcqw4VxpNA1oOS1IyLZXSOl6Ef3PiKqBJXWKveIdz-_YRTVniCLYsmQ158DLK7JMN0zjSZJ66uCS5mdAL-OYp_S1mDgbWtjvtvqqt3U_-3IKZmucfKqS0-2Hr5DGSz6-rbLLSY1utBlIifryHqQbtrSyltRcvK9ikQUJ71MNbY_XHSSvsrKdUYckZjrA9UN44lEe0lNt0iAZ6_a3UrsNkXhsZWRuci8VTOEU_i_cza3c0TDsSBhabeYsre_BUp7wQriHwsniUQ9K-FqsiKHfIAZVqmPQtSTnLKmBhhgvD0_OM0woWeEfe4accPRJMDbcA9mqNw0ZLEl83HMIy4jGfCZ6g783qAh8UoaNnSDK8rjaykh8ilzhXtvbF2iQe5_SWLrmyJCrJs6DJtzWzSRh5xwIuiMgEdITudhwT6fyztec5cANRECDM9kX7Wwjk8S2TUNxOEGwBsDZcDDOd4hYj_gWgGjXkV0OERct1BujY5PAUmdFjlm8Ed3e63tr5reWB-2U0LIvi-DhiZL-2ctWPpEVxG2JKIpTWtxsHAKDhUI=w746-h1532-no)
-
 > **Notice:** This project is used for Microsoft Codess 2019 Event in Sydney.
     
 ## About IoT DevKit
@@ -24,7 +22,7 @@ To complete the steps in this tutorial, you need to do the following:
 
 ### Setting up the Environment.
 
-1. Download or Git Clone ![GitHub Repo.](https://github.com/LightOfOdin/DevKit8BallFuture) to your local drive. 
+1. Download or Git Clone [GitHub Repo.](https://github.com/LightOfOdin/DevKit8BallFuture) to your local drive. 
 
 2. **Click** Open file directory within Visual Studio Code (Rightclick > Open with Visual Studio Code), Azure IoT Extension should automatically detect the IoTProject Workspace. After dependancies are loaded, connect MXChip Devkit(AZ3166) to your computer's USB.
 
@@ -38,11 +36,11 @@ To complete the steps in this tutorial, you need to do the following:
 
 2. The device will then output your prophecy. There is a 5 second delay, before you can try again.
 
-![8Ball Idle Screen](https://lh3.googleusercontent.com/VTB8ws53NitZPlyyVYZGqLcjnZU5CIoejVJzjp0de7kDtwi3h08BdD3vcB0vBiRTFRwMBWRV5fH-Ze0eHJgx68WvbHYZk6WoCkLAvxFFOjxaexJYz6BWPbG0V4liIbtoc3pGzKhMLAxnPf_zTbJXqu_3jSl6jEXzgc_ynk1jOD9HbZuJrGq1bTb6rGaa7wL7sdRvPZxrsdwbYExum5L71glDRTN28VqW7Dt-OLDvAIsS8IZI0dOq8M6i037n-9jN9RCNfDTcb72V2zfM-RTAmtxYJDtdzT-uUeJBQ1JJ8aX2rWe1jJDg_5bzJcfQ3e8tXR20qo3IV7QcdONNU7KMIBsfYDICpmDUfrhNQhXJZ1pGpYAUaev4yBxxVyoUTtSnir19kesJFULOS-86uVWaM7Eq0eIR799_OXBiHNRslwy93dU3jEoor_XK6C6ZvH7MLVy0lz6nn2yHIp_3igjnrc_VofQaqhGrv9ddXwy4RoW1EMameEZQYHF9El6Alxz5482vVFjzIdtMdLZ1gUD8NQ8e3ZnUX6WyOcGZiBrhckHbeOsHOeZlTWKYGcmgzE-UxD2bFEhPn_CHPcDiC2gnQemBx7Haa3h0-SB8DAUz4ub759XXGgBfUfNCmpAKbB8ReJqJZ--ovesYV80cizoQuPXFGiiO6Zodx88vO75R_8lVvT49lBEBGJc=w746-h1532-no)
+![8Ball Idle Screen](/screenshots/IoT1.jpg)
 
 3. Try 3 different prophecies, then click on the the reset button found on the DevKit below the Micro USB interface.
 
-4. Try this again and note down your observations. Is this truly random? 
+4. Try this again and note down your observations. Is this truly a random output? 
 
 ## Coding Exercises
 
@@ -54,7 +52,9 @@ In this program, it is imporant for the sequence of generated random numbers by 
 
 2. Reference the schematic below to understand MXChip inputs. 
 
-3. You are not limited to #DevKitMQTTClient.h headers. We have also intergrated the #arduino.h header. Check the arduino ![documentation](https://www.arduino.cc/reference/en/#page-title) 
+![MX Chip Schematic by Jeremy Lindsay](/screenshots/IoT2.png)
+
+3. You are not limited to #DevKitMQTTClient.h headers. We have also intergrated the #arduino.h header. Check the arduino [documentation](https://www.arduino.cc/reference/en/#page-title) 
 
 ## Problems and feedback
 

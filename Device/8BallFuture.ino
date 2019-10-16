@@ -2,7 +2,7 @@
 #include "LSM6DSLSensor.h"
 #include "Arduino.h"
 
-//variable for generating random number (to use as a seed) for hasShake
+//variable for generating random number (to use as a seed) for hasShake. Initialising a seed variable to select a 
 long randNumber;
 
 //init sensors
@@ -11,7 +11,7 @@ LSM6DSLSensor *sensor;
 
 //init step variables for changing from idle state to hasShake (Telling Future).
 int steps = 0;
-static int state = 0; //idle state
+static int state = 0; // this is an idle state
 
 //setting empty array to contain possible futures in string format.
 static char *futures[] = {
@@ -38,7 +38,7 @@ static char *futures[] = {
 };
 
 
-//Main Idle
+//This is the main screen to prompt the user to shake for their future
 static void enterIdleState() {
   state = 0;
   Screen.clean();
