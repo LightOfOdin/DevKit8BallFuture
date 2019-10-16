@@ -56,7 +56,7 @@ In this program, it is imporant for the sequence of generated random numbers by 
 
 3. You are not limited to #DevKitMQTTClient.h headers. We have also intergrated the #arduino.h header. Check the arduino [documentation](https://www.arduino.cc/reference/en/#page-title) 
 
-## Problems and feedback
+## Problems and feedback    
 
 If you encounter problems, you can find [FAQs](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/) if you encounter problems or reach out to us from the channels below.
 
