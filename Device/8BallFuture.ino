@@ -78,7 +78,6 @@ void setup() {
   sensor->enableAccelerator();
   sensor->enablePedometer();
   sensor->setPedometerThreshold(LSM6DSL_PEDOMETER_THRESHOLD_MID_LOW);
-  randomSeed(analogRead(A3));
   enterIdleState();
 }
 
