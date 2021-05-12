@@ -9,7 +9,7 @@ In this tutorial, you will turn your MXChip into a clairevoyant magical 8Ball. T
     
 ## About IoT DevKit
 
-The [MXChip IoT DevKit](https://aka.ms/iot-devkit) (a.k.a. IoT DevKit) is an all-in-one Arduino compatible board with rich peripherals and sensors. You can develop for it using [Azure IoT Device Workbench ](https://aka.ms/azure-iot-workbench). And it comes with a growing [projects catalog](https://aka.ms/devkit/project-catalog) to guide you prototype Internet of Things (IoT) solutions that take advantage of Microsoft Azure services.
+The [MXChip IoT DevKit](https://aka.ms/iot-devkit) (a.k.a. IoT DevKit) is an all-in-one Arduino compatible board with rich peripherals and sensors. You can develop using [Azure IoT Device Workbench ](https://aka.ms/azure-iot-workbench). It comes with a growing [projects catalog](https://aka.ms/devkit/project-catalog) to guide your prototypes for Internet of Things (IoT) solutions that take advantage of Microsoft Azure services.
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ To complete the steps in this tutorial, you need to do the following:
 
 ### Creating true random numbers.
 
-In this program, it is imporant for the sequence of generated random numbers by random(), must differ even if we reinitalise the sketch, clicking on the **Reset** button found on the MXChip. In Order to do this, we need to use the randomSeed() fn to initilise the random number generator by using a fairly random input. You need to solve this function of the code. Check below for useful hints.
+In this program, it is important for the sequence of generated random numbers by random(), must differ even if we reinitalise the sketch, clicking on the **Reset** button found on the MXChip. In Order to do this, we need to use the randomSeed() function to initilise the random number generator by using a fairly random input. You need to solve this function of the code. Check below for useful hints.
 
 1. The main elements of intergrating this will be within the **void setup() "& void loop()** functions.
 
